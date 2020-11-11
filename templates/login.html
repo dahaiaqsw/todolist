@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}登录页{% endblock %}
+
+{% block content %}
+    {{ wtf.quick_form(form) }}
+{% endblock %}
